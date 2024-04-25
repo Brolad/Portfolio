@@ -116,8 +116,8 @@ section {
     font-size: 1.4rem;
     margin: 2rem 0 4rem;
     font-style: italic;
-    color: #2f3447;
-    font-weight: 500;
+    color: #121023;
+    font-weight: 600;
 }
 
 .btn-box {
@@ -205,6 +205,11 @@ section {
         background-size: cover;
         background-attachment: fixed;
         background-position: center;
+    }
+
+    .home-content .quote {
+        color: #18081a;
+        font-weight: bold;
     }
 }
 
