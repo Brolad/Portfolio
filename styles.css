@@ -116,7 +116,7 @@ section {
     font-size: 1.4rem;
     margin: 2rem 0 4rem;
     font-style: italic;
-    color: #121023;
+    color: #2f3447;
     font-weight: 500;
 }
 
@@ -472,6 +472,7 @@ section {
   /* Additional styles for hover effect */
   .skill:hover {
     background-color: #121023;
+    color: #e56c88;
     transition: background-color 0.3s ease;
   }
   
@@ -517,12 +518,17 @@ section {
 
   .experience-item:hover {
     background-color: #121023;
+    color: #e56c88;
     transition: .5s;
   }
 
-.experience-item:hover > * {color: #e56c88;}
+  .experience-item:hover > * {color: #e56c88;}
 
   .experience-item:hover > * {transition: .5s;}
+
+    .experience-item:hover > ul > li {
+        color: #e56c88;
+        }
 
   /* CONTACT */
   .contact {
