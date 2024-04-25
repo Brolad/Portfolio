@@ -112,10 +112,11 @@ section {
     font-weight: 700;
 }
 
-.home-content p {
+.home-content .quote {
     font-size: 1.4rem;
     margin: 2rem 0 4rem;
     font-style: italic;
+    color: #2f3447;
 }
 
 .btn-box {
