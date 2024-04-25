@@ -520,6 +520,10 @@ section {
     transition: .5s;
   }
 
+.experience-item:hover > * {color: #e56c88;}
+
+  .experience-item:hover > * {transition: .5s;}
+
   /* CONTACT */
   .contact {
     margin-top: 40px;
